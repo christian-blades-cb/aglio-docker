@@ -1,4 +1,4 @@
-[![](https://badge.imagelayers.io/christianbladescb/aglio:latest.svg)](https://imagelayers.io/?images=christianbladescb/aglio:latest 'Get your own badge on imagelayers.io') [![Docker Pulls](https://img.shields.io/docker/pulls/christianbladescb/aglio.svg)]()
+[![](https://badge.imagelayers.io/christianbladescb/aglio:latest.svg)](https://imagelayers.io/?images=christianbladescb/aglio:latest 'Get your own badge on imagelayers.io') [![Docker Pulls](https://img.shields.io/docker/pulls/christianbladescb/aglio.svg)](https://hub.docker.com/r/christianbladescb/aglio/)
 
 # Aglio Docker Image
 
