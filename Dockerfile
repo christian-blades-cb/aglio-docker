@@ -1,8 +1,9 @@
 # Pull base image
-FROM alpine:3.3
+FROM alpine:latest
 
-LABEL version=2.2.0
-
-RUN apk -U add nodejs g++ make python; npm install -g aglio@2.2.0; apk del g++ make python
+RUN \
+  apk -U add nodejs-npm g++ make python \
+  && npm install -g aglio@latest \
+  &&apk del g++ make python
 
 ENTRYPOINT ["aglio"]
